@@ -1,12 +1,13 @@
+// import './App.css';
+import Navbar from './Navbar';
+
 function App(){
-  const title = "KitabKor";
-  // const book={name:'human',price:30}  //React doesnt convert object & Booleans
+  // const title = "KitabKor";
   return(
     <div className='App'>
+      <Navbar></Navbar>
       <div className='content'>
-        <h1>{title}</h1>
-        
-        <h1>{'Kitabkor'}</h1>
+        {/* <h1>{title}</h1> */}
       </div>
     </div>
   )
