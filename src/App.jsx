@@ -1,5 +1,3 @@
-import './App.css';
-
 function App(){
   const title = "Welcome to KitabKor";
   return(
