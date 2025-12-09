@@ -1,5 +1,7 @@
-import { useState } from "react";
-import sapiensCover from'./assets/sapiens.webp'
+import { useState } from "react";  
+import sapiensCover from'./assets/sapiens.webp';
+import BookCard from './BookCard';
+
 const Home = () => {
   const [books, setBooks]=useState([
     {title:'Homo Sapiens',body:'New-York Bestseller of the year',author:'Yuval Harrari',
@@ -26,17 +28,7 @@ const Home = () => {
   ])
   return (
     <div className="home">
-        <div className="books-container">
-     {books.map((books)=>(
-    <div className="blog-preview" key={books.id}>
-      <img src={books.cover} alt={books.title} />
-      <h2>{books.title}</h2>
-      <p>{books.author}</p>
-      <p>{books.price}PKR</p>
-      <button onClick={()=>alert(books.title+" added to cart!")}>Add to Cart</button>
-    </div>
-     ))}
-    </div>
+     <BookCard books={books}/>
     </div>
   );
 };

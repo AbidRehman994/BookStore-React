@@ -47,7 +47,7 @@
 }
 .books-container {
   display: grid;
-  grid-template-columns: repeat(5, 1fr); /* 3 books per row */
+  grid-template-columns: repeat(5, 1fr); /* 5 books per row */
   gap: 20px;
   padding: 20px;
 }
