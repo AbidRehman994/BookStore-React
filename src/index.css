@@ -45,22 +45,24 @@
 .home {
   padding: 20px;
 }
-
-/* Flex row for horizontal boxes */
 .books-container {
-  display: flex;
-  gap: 20px;          /* space between boxes */
-  flex-wrap: wrap;    /* allows wrapping if screen small */
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); /* 3 books per row */
+  gap: 20px;
+  padding: 20px;
 }
 
 /* Book card style */
 .blog-preview {
-  width: 200px;
+  height: 230px;            /* ⬆ double height */
   border: 1px solid #ddd;
-  padding: 16px;
-  border-radius: 8px;
+  width: 120px;
+  padding: 20px;
+  border-radius: 10px;
   background: #fff;
-  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;  /* content centered vertically */
   transition: 0.3s ease;
 }
 

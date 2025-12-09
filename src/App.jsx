@@ -9,7 +9,6 @@ function App(){
       <Navbar></Navbar>
       <div className='content'>
         <Home></Home>
-        {/* <h1>{title}</h1> */}
       </div>
     </div>
   )

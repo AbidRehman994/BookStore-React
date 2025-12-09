@@ -9,6 +9,18 @@ const Home = () => {
     },
       {title:'The Human Kind',body:'must-read',author:'Ruther',
       price:450,id:'2'
+    },
+     {title:'The Human Kind',body:'must-read',author:'Ruther',
+      price:450,id:'2'
+    },
+     {title:'The Human Kind',body:'must-read',author:'Ruther',
+      price:450,id:'2'
+    },
+     {title:'The Human Kind',body:'must-read',author:'Ruther',
+      price:450,id:'2'
+    },
+     {title:'The Human Kind',body:'must-read',author:'Ruther',
+      price:450,id:'2'
     }
   ])
   return (
