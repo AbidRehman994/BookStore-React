@@ -7,8 +7,8 @@ const Home = () => {
     {title:'Homo Sapiens',body:'New-York Bestseller of the year',author:'Yuval Harrari',
       price:3000, cover:sapiensCover, id:'1'
     },
-    {title:'Think Fast',body:'Guardian bestbook of the year',author:'Malcolm',
-      price:350,id:'2'
+    {title:'Think Fast',body:'Guardian bestbook of the year',author:'Daniel',
+      price:350, cover:thinkCover, id:'3'
     },
       {title:'The Human Kind',body:'must-read',author:'Ruther',
       price:450,id:'2'
